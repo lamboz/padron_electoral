@@ -1,0 +1,7 @@
+development:
+  adapter: fdbsql
+  database: sample
+  username: <%= ENV['PG_USER'] %>
+  password: <%= ENV['PG_PASS'] %>
+  host: localhost
+  port: 15432
